@@ -3,6 +3,7 @@ import bodyParser from 'body-parser';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import path from 'path';
+import morgan from 'morgan';
 import helmet from 'helmet'; 
 import { home } from './controller/home.js';
 
